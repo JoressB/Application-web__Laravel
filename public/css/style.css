@@ -1,0 +1,121 @@
+html, body, header, .white {
+    background-color: white;
+    font-family: "Open Sans";
+    color: #000000;
+}
+
+couleurs {
+    --orange_clair : #F7931d;
+    --orange_p :  #F47c20;
+    --orange_foncé : #F16521;
+    --orange_rougeâtre : #e23e26;
+    --rouge_bordeau : #c0262d;
+}
+
+.bg-orange-clair {
+    background-color: #F7931d;
+}
+
+.bg-orange-p {
+    background-color: #F47c20;
+}
+
+.bg-orange-foncé {
+    background-color: #F16521;
+}
+
+.bg-orange-rouge {
+    background-color: #e23e26;
+}
+
+.bg-rouge_bordeau {
+    background-color: #c0262d;
+}
+
+/*BANDEAU ORANGE A L'ACCEUIL*/
+#bandeauAcceuil{
+    background-color:  #F7931d;
+    margin-top: 1%;
+    height: 15vw;
+}
+
+#footer {
+    background-color: #F16521;
+}
+
+/*CARROUSEL A L'ACCEUIL*/
+#carrousselAcceuil{
+    height: 15vw;
+    background-color: #F7931d;
+}
+
+/*MOT A L'ACCEUIL*/
+#motAcceuil{
+    width: 100%;
+    background-color: #F7931d;
+    color: white;
+    height: 15vw;
+}
+
+/*Formulaire d'inscription */
+#formulaire{
+    background-color: #f47c20;
+}
+
+/*INSTRUCTION POUR TOUS LES ELEMENTS DE LA CLASSE MILIEU*/
+.milieu{
+    margin: 4vw 0;
+    height: 15vw;
+}
+
+/*IMAGES DU CARROUSSEL A L'ACCEUIL*/
+.imagesAcceuil{
+    margin: 1% auto;
+    height: 14vw;
+}
+
+#navbarNav0
+{
+    background-color:   #F47c20;
+    border-radius: 5px;
+}
+
+.cacheGE
+{
+    display: none;
+}
+
+/* QUELQUES EXCEPTIONS POUR LES PETITS ECRAN*/
+@media screen and (max-width: 800px)
+{
+    /* Rédigez vos propriétés CSS ici */
+    #Annonces {
+        margin-top: 30%;
+    }
+
+    /*BANDEAU ORANGE A L'ACCEUIL*/
+    #bandeauAcceuil{
+        background-color:  #F7931d;
+        margin-bottom: 30%;
+        height: 5vw;
+    }
+
+    .milieu h2{
+        font-size: large;
+    }
+
+    .milieu h4{
+        font-size: medium;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .milieu h2{
+        font-size: medium;
+    }
+
+    .milieu h4{
+        display: none;
+    }
+}
